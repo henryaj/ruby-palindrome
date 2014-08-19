@@ -3,4 +3,4 @@ def factorial(number)
 	number * (factorial(number - 1))
 end
 
-p factorial(10)
+p factorial(100)
