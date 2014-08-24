@@ -1,3 +1,5 @@
 def sum(array)
-	array[0]
+	result = 0
+	array.each { |n| result += n }
+	result
 end
